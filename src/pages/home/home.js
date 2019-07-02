@@ -1,4 +1,4 @@
-import { fetch } from '@utils'
+// import { fetch } from '@utils'
 
 Page({
   data: {
@@ -6,7 +6,7 @@ Page({
   },
 
   async onLoad() {
-    const res = await fetch('topics', { data: { limit: 5 } })
-    this.setData({ topics: res.data.data })
+    // const res = await fetch('topics', { data: { limit: 5 } })
+    // this.setData({ topics: res.data.data })
   }
 })
